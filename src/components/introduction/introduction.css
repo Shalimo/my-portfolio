@@ -1,0 +1,75 @@
+body {
+    background-color: #e6e6fa;
+}
+
+.intro {
+    display: flex;
+    height: 100vh;
+}
+
+.intro-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-right {
+    flex: 1;
+}
+
+.intro-left-wrapper {
+    padding: 30px;
+    font-size: 30px;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro-greetings {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.intro-name {
+    font-size: 100px;
+}
+
+.intro-description {
+    font-size: 40px;
+}
+
+.intro-skill-title {
+    font-size: 30px;
+}
+
+.intro-skills {
+    height: 40px;
+    overflow: hidden;
+}
+
+.intro-skills-wrapper {
+    height: 100%;
+    animation: move 5s linear alternate infinite;
+}
+
+@keyframes move {
+    33.33% {
+        transform: translateY(-40px);
+    }
+    66.66% {
+        transform: translateY(-80px);
+    }
+    99.99% {
+        transform: translateY(-120px);
+    }
+}
+
+.intro-skills-item {
+    height: 40px;  {/*1 item*/} 
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
