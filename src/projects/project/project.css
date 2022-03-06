@@ -1,0 +1,90 @@
+.project {
+    width: 280px;
+    height: 360px;
+    border-radius: 15px;
+    padding: 1.5rem;
+    background: $white;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.4s ease-out;
+    box-shadow: 0px 7px 10px rgba($cod-gray, 0.5);
+    margin-bottom: 50px;
+}
+
+.project-container {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    opacity: 0.5;
+}
+
+.project-info {
+    position: relative;
+    z-index: 100;
+    @include text-button('Poppins', 16px, 500, 1.75em);
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+h1 {
+    margin: 0px;
+  }
+
+  p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  a.link:active, /* активная/посещенная ссылка */
+  a.link:hover,  /* при наведении */
+  a.link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 20px;
+    padding: 1.2em 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: red;
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+  
+  .btn {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .btn:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+  }
