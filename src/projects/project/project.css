@@ -55,9 +55,9 @@ h1 {
     -moz-appearance: none;
     appearance: none;
     background-color: transparent;
-    border: 2px solid #e74c3c;
+    border: 2px solid #000;
     border-radius: 0.6em;
-    color: #e74c3c;
+    color: #000;
     cursor: pointer;
     display: -webkit-box;
     display: -webkit-flex;
@@ -86,5 +86,5 @@ h1 {
     transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
   }
   .btn:hover {
-    box-shadow: 0 0 40px 40px #e74c3c inset;
+    box-shadow: 0 0 40px 40px #e6e6fa inset;
   }
