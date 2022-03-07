@@ -43,7 +43,7 @@ const Contacts = () => {
                     </div>
                 </div>
                 <div className="contacts-right">
-                    <h1 className="contacts-title">GET IN TOUCH</h1>
+                    <h1 className="contacts-title">EMAIL ME HERE</h1>
                     <form ref={formRef} onSubmit={sendData}>
                         <input type="text" placeholder="Name" name="user_name"/>
                         <input type="text" placeholder="Subject" name="subject"/>
