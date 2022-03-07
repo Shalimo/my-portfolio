@@ -55,7 +55,6 @@ textarea {
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
-    /* margin-bottom: 50px; */
 }
 
 .sumbit-button {
@@ -79,7 +78,7 @@ textarea {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1;
-    margin-top: 20px;
+    margin-top: 5px;
     padding: 1.2em 2.8em;
     text-align: center;
     text-transform: uppercase;
@@ -97,4 +96,9 @@ textarea {
   }
   .btn:hover {
     box-shadow: 0 0 40px 40px #e6e6fa inset;
+  }
+
+  .message {
+      margin-top: 10px;
+      width: 100%;
   }

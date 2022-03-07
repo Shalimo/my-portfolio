@@ -3,13 +3,23 @@ import Telegram from "../../img/icons/Telegram.png";
 import Gmail from "../../img/icons/Gmail.png";
 import Smartphone from "../../img/icons/smartphone.png"
 import { useRef } from "react";
+import emailjs from '@emailjs/browser';
+import { useState } from "react";
 
 const Contacts = () => {
 
     const formRef = useRef();
+    const [done, setDone] = useState(false);
 
     const sendData = (e) => {
         e.preventDefault();
+        emailjs.sendForm('service_h8fuxnx', 'template_cdto75o', formRef.current, 'I-sVFmjXGCpl4NZAv')
+        .then((result) => {
+            console.log(result.text);
+            setDone(true);
+        }, (error) => {
+            console.log(error.text);
+        });
     }
 
     return (
@@ -38,6 +48,7 @@ const Contacts = () => {
                         <input type="text" placeholder="Email" name="user_email"/>
                         <textarea rows="5" placeholder="Message" name="message"></textarea>
                         <button className="sumbit-button">Submit</button>
+                        <div className="message">{done && "Thank you! your message has been sent"}</div>
                     </form>
                 </div>
             </div>
