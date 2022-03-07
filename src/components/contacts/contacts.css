@@ -1,0 +1,100 @@
+.contacts {
+    height: 80vh;
+}
+
+.contacts-wrapper {
+    padding-top: 50px;
+    padding-left: 120px;
+    display: flex;
+}
+
+.contacts-left {
+    flex: 1;
+}
+
+.contacts-right {
+    flex: 1;
+}
+
+.contacts-title {
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+
+.contacts-info-item {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    font-weight: 300px;
+    width: 70%;
+    font-size: 30px;
+}
+
+.contacts-icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 100px;
+}
+
+/* form {
+    margin-top: 150px;
+} */
+
+input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 80%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+    /* margin-bottom: 50px; */
+}
+
+.sumbit-button {
+    text-decoration: none;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 0.6em;
+    color: #000;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 20px;
+    padding: 1.2em 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: red;
+  }
+  .sumbit-button:hover, .sumbit-button:focus {
+    color: #000;
+    outline: 0;
+  }
+  
+  .sumbit-button {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .btn:hover {
+    box-shadow: 0 0 40px 40px #e6e6fa inset;
+  }
