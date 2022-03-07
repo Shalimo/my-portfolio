@@ -2,8 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Deploy: https://pensive-lumiere-78d935.netlify.app/
-
 ## Available Scripts
 
 In the project directory, you can run:
