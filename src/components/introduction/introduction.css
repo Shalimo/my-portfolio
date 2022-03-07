@@ -50,17 +50,17 @@
     font-size: 40px;
     font-weight: bold;
     height: 100%;
-    animation: move 5s linear alternate infinite;
+    animation: move 5s ease-in-out infinite alternate ;
 }
 
 @keyframes move {
-    33.33% {
+    34% {
         transform: translateY(-40px);
     }
-    66.66% {
+    67% {
         transform: translateY(-80px);
     }
-    99.99% {
+    100% {
         transform: translateY(-120px);
     }
 }
