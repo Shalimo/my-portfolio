@@ -19,7 +19,9 @@ const Contacts = () => {
             setDone(true);
         }, (error) => {
             console.log(error.text);
-        });
+        }).finally (() => {
+            e.target.reset(); 
+        })
     }
 
     return (
