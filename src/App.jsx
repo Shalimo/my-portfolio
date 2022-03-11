@@ -9,7 +9,6 @@ import CV from "./components/cv/cv";
 const App = () => {
   return ( 
   <div className="portfolio-bg">
-    <Header/>,
     <Introduction/>,
     <Projects/>,
     <CV/>,
