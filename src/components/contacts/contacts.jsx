@@ -31,7 +31,7 @@ const Contacts = () => {
                     <h1 className="contacts-title">GET IN TOUCH</h1>
                     <div className="contacts-info-item">
                         <img src={Smartphone} alt="" className="contacts-icon"/>
-                        +375 29 191-95-65
+                        +375 626-91-41
                     </div>
                     <div className="contacts-info-item">
                         <img src={Gmail} alt="" className="contacts-icon"/>
