@@ -6,6 +6,9 @@ import Food from "../img/food.jpg";
 import Hardware from "../img/hardware.jpg";
 import Got from "../img/got.jpg";
 import Counter from "../img/counter.jpg";
+import Converter from "../img/converter.jpg";
+import Calendar from "../img/calendar.jpg";
+import GitHub from "../img/github.jpg"
 
 const Projects = () => {
 
@@ -32,6 +35,18 @@ const Projects = () => {
     const counter = {
         backgroundImage: `url(${Counter})`
     }
+
+    const converter = {
+      backgroundImage: `url(${Converter})`
+  }
+
+  const calendar = {
+    backgroundImage: `url(${Calendar})`
+  }
+
+  const github = {
+    backgroundImage: `url(${GitHub})`
+  }
 
     return (
         <div className="block" id="Projects">
@@ -74,6 +89,24 @@ const Projects = () => {
               description={'My first project with React/Redux. Just a memory.'}
               style={counter}
               linkName={'https://github.com/Shalimo/react-redux-counter'}
+            />
+            <Project
+              title={'Currency converter'}
+              description={'React app. Currensy API, fetch API, function components, hooks.'}
+              style={converter}
+              linkName={'https://github.com/Shalimo/currency-converter'}
+            />
+            <Project
+              title={'Booking calendar'}
+              description={'Test task (JavaScript app).'}
+              style={calendar}
+              linkName={'https://github.com/Shalimo/booking-calendar'}
+            />
+            <Project
+              title={'Mini Git'}
+              description={'Task project for Paralect.'}
+              style={github}
+              linkName={'https://github.com/Shalimo/git-mini-paralect'}
             />
           </div>
         </div>

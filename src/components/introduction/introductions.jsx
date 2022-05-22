@@ -1,5 +1,5 @@
 import "./introduction.css";
-import Me from "../../img/git.jpg";
+import Me from "../../img/me.jpg";
 
 const Introduction = () => {
     return (

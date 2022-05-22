@@ -19,7 +19,7 @@
     text-transform: uppercase;
     line-height: 1.2;
     color: $cod-gray;
-    margin: 0 0 0px;
+    margin: 0;
 }
 
 .footer-link {
