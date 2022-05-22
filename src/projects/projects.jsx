@@ -103,7 +103,7 @@ const Projects = () => {
               linkName={'https://github.com/Shalimo/booking-calendar'}
             />
             <Project
-              title={'Mini Git'}
+              title={'Mini Github'}
               description={'Task project for Paralect.'}
               style={github}
               linkName={'https://github.com/Shalimo/git-mini-paralect'}
