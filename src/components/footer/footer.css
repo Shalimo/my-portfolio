@@ -42,4 +42,10 @@
         padding: 13px;
     }
 }
+
+@media screen and (max-height: 900px) {
+    .footer {
+        height: 100%;
+    }
+}
   
