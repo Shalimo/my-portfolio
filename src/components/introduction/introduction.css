@@ -1,6 +1,7 @@
 .intro {
     display: flex;
     height: 100vh;
+    flex-direction: row;
 }
 
 .intro-left {
@@ -69,11 +70,11 @@
     height: 40px;  {/*1 item*/} 
     display: flex;
     align-items: center;
-
 }
 
 .intro-right {
     padding-top: 40px;
+    display: flex;
 }
 
 .intro-img {
@@ -81,4 +82,52 @@
     height: 90%;
     object-fit: contain;
 }
+
+@media screen and (max-width: 1486px) {
+    .intro-left {
+        align-items:flex-start;
+        margin-top: 170px;
+    }
+}
+
+@media screen and (max-width: 1483px) {
+    .intro-skills {
+        height: 40px;
+        overflow:visible;
+    }
+    
+    .intro-skills-wrapper {
+        font-size: 40px;
+        font-weight: bold;
+        height: 100%;
+        animation: none;
+        -webkit-animation: none;
+}
+    .intro-skills-item {
+        color: #8d57b4;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .intro {
+        flex-direction: column;
+        height: 130vh;
+    }
+    .intro-right {
+        margin-top: 200px;
+        justify-content: center;
+    }
+    .intro-img {
+        width: 70%;
+        height: 70%;
+        object-fit: contain;
+    }
+    .intro-left {
+        text-align: center;
+    }
+}
+
+
+
+
 

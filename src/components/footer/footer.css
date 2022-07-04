@@ -34,4 +34,12 @@
       color: #fff;
       transition: all 0.3s;
 }
+
+@media screen and (max-width: 400px) {
+    .footer-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        padding: 13px;
+    }
+}
   
