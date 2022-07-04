@@ -125,6 +125,15 @@
     .intro-left {
         text-align: center;
     }
+    .intro-skills {
+        text-align: center;
+    }
+}
+
+@media screen and (max-height: 880px) {
+    .intro-right {
+        margin-top: 80px;
+    }
 }
 
 
