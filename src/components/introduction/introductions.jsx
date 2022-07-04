@@ -1,5 +1,6 @@
 import "./introduction.css";
 import Me from "../../img/me.jpg";
+import Telegram from "../../img/icons/Telegram.png";
 
 const Introduction = () => {
     return (
@@ -13,10 +14,10 @@ const Introduction = () => {
                         <h3 className="intro-skill-title">Skills:</h3>
                         <div className="intro-skills">
                             <div className="intro-skills-wrapper"> {/*for animation*/}
-                                <div className="intro-skills-item">HTML5</div>
-                                <div className="intro-skills-item">CSS3</div>
-                                <div className="intro-skills-item">JavaScript</div>
-                                <div className="intro-skills-item">React</div>
+                                <div><img className="skill-icon" src={Telegram} alt=""></img></div>
+                                <div><img className="skill-icon" src={Telegram} alt=""></img></div>
+                                <div><img className="skill-icon" src={Telegram} alt=""></img></div>
+                                <div><img className="skill-icon" src={Telegram} alt=""></img></div>
                             </div>
                         </div>
                     </div>
