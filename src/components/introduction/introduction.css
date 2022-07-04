@@ -125,7 +125,26 @@
     .intro-left {
         text-align: center;
     }
-    .intro-skills {
+    .intro-skills-wrapper {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .intro-greetings {
+        font-size: 30px;
+    } 
+    .intro-name {
+        font-size: 80px;
+    }
+    .intro-description {
+        font-size: 30px;
+        
+    }
+    .intro-skill-title {
+        font-size: 25px;
+    }
+    .intro-skills-wrapper {
         text-align: center;
     }
 }

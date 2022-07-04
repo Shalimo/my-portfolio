@@ -183,9 +183,15 @@ textarea {
     }
 }
 
-@media screen and (max-height: 900px) {
+@media screen and (max-height: 800px) {
     .contacts {
-        height: 160vh;
+        height: 140vh;
+    }
+}
+
+@media screen and (min-height: 900px) {
+    .contacts {
+        height: 70vh;
     }
 }
 
