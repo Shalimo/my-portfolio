@@ -1,6 +1,9 @@
 import "./introduction.css";
 import Me from "../../img/me.jpg";
-import Telegram from "../../img/icons/Telegram.png";
+import HTML from "../../img/HTML.svg"
+import CSS from "../../img/CSS.svg"
+import JS from "../../img/JS.svg"
+import REACT from "../../img/REACT.svg"
 
 const Introduction = () => {
     return (
@@ -14,10 +17,10 @@ const Introduction = () => {
                         <h3 className="intro-skill-title">Skills:</h3>
                         <div className="intro-skills">
                             <div className="intro-skills-wrapper"> {/*for animation*/}
-                                <div><img className="skill-icon" src={Telegram} alt=""></img></div>
-                                <div><img className="skill-icon" src={Telegram} alt=""></img></div>
-                                <div><img className="skill-icon" src={Telegram} alt=""></img></div>
-                                <div><img className="skill-icon" src={Telegram} alt=""></img></div>
+                                <div><img className="skill-icon" src={HTML} alt=""></img></div>
+                                <div><img className="skill-icon" src={CSS} alt=""></img></div>
+                                <div><img className="skill-icon" src={JS} alt=""></img></div>
+                                <div><img className="skill-icon" src={REACT} alt=""></img></div>
                             </div>
                         </div>
                     </div>

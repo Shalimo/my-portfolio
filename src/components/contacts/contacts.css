@@ -1,9 +1,5 @@
-.contacts {
-    height: 80vh;
-}
-
-.contacts-wrapper {
-    padding-top: 50px;
+.contacts-wrapper { 
+    padding: 100px;
     padding-left: 120px;
     display: flex;
 }
