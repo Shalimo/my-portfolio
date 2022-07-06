@@ -54,7 +54,7 @@
 }
 
 .skill-icon {
-    padding-right: 30px;
+    padding-right: 15px;
     width: 100px;
     height: 100px;
 }
@@ -95,5 +95,30 @@
     }
     .intro-img {
         padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .intro-greetings {
+        font-size: 35px;
+    }
+    .intro-name {
+        font-size: 60px;
+    }
+    .intro-description {
+        font-size: 35px;
+    }
+    .intro-skill-title {
+        font-size: 25px;
+    }
+    .intro-skills {
+        margin-left: 0;
+    }
+    .skill-icon {
+        width: 60px;
+        height: 60px;
+    }
+    .intro-img {
+        padding-top: 50px;
     }
 }

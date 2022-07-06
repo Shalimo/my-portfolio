@@ -1,6 +1,16 @@
 html{
   background: #e6e6fa no-repeat;
   background-size: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body
+{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 
