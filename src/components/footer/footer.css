@@ -1,5 +1,5 @@
 .footer {
-    background-color: #e6d2fc;
+    background: #e6d2fc;
 }
 
 .footer-wrapper {
@@ -15,9 +15,10 @@
     font-size: 14px;
     line-height: 2em;
     color: $cod-gray;
+    font-weight: 600;
 }
 
-.footer-linkk {
+.footer-link {
     color: #000;
     transition: 0.5s all;
     text-decoration: none;

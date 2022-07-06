@@ -1,6 +1,7 @@
 .intro {
     display: flex;
     padding: 60px;
+    flex-direction: row;
 }
 
 .intro-left {
@@ -63,9 +64,36 @@
 }
 
 .intro-img {
-    width: 95%;
-    height: 95%;
-    object-fit: contain;
+    height: auto;
+    width: 100%;
+    max-width: 720px;
 }
 
-/* @media screen and (max-width: ) */
+@media screen and (max-width: 1310px) {
+    .intro {
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro-img {
+        padding-top: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .intro {
+        flex-direction: column;
+    }
+    .intro-img {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+    }
+    .intro-img {
+        padding-top: 100px;
+    }
+}

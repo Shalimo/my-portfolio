@@ -35,9 +35,12 @@
     justify-items: center;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1150px) {
     .projects {
         grid-template-columns: 1fr 1fr;
+    }
+    .block-container {
+        padding-top: 130px;
     }
 }
 
@@ -49,7 +52,7 @@
 
 @media screen and (max-height: 880px) {
     .block-container {
-        padding-top: 70px;
+        padding-top: 130px;
     }
 }
 
