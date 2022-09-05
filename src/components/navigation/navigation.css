@@ -16,3 +16,15 @@
 .link:hover {
     text-shadow: 1px 1px 1px rgb(140, 0, 255);
 }
+
+@media screen and (max-width: 700px) {
+    .navLink {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .navLink {
+        padding: 0px;
+    }
+}
