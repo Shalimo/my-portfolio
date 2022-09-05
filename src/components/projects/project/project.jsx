@@ -7,11 +7,13 @@ const Project = (props) => {
         <div className="project-info">
           <h1>{props.title}</h1>
           <p>{props.description}</p>
+          {props.linkName === null ? 
+          <div className="private">Private project</div> : 
           <button className="btn">
             <a href={props.linkName} className="link" target="_blank" rel="noreferrer">
               VIEW PROJECT
             </a>
-          </button>
+          </button>}
         </div>
       </div>
     );

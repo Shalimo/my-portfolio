@@ -25,7 +25,7 @@ const Contacts = () => {
     }
 
     return (
-        <div className="contacts">
+        <div className="contacts" id="Contacts">
             <div className="contacts-wrapper">
                 <div className="contacts-left">
                     <h1 className="contacts-title">GET IN TOUCH</h1>

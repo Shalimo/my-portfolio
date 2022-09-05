@@ -1,7 +1,9 @@
 .intro {
     display: flex;
-    padding: 60px;
     flex-direction: row;
+    margin-top: 6%;
+    margin-bottom: 1%;
+    padding-top: 1%;
 }
 
 .intro-left {
@@ -13,11 +15,12 @@
 
 .intro-right {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .intro-left-wrapper {
-    /* font-size: 30px; */
-    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -59,23 +62,40 @@
     height: 100px;
 }
 
-.intro-right {
-    padding-top: 40px;
+.skill-icon-native {
+    padding-right: 15px;
+    width: 100px;
+    height: 110px;
 }
 
 .intro-img {
     height: auto;
-    width: 100%;
     max-width: 720px;
+    width: 80%;
+    border-radius: 25px; /* Радиус скругления */
+    border: 1px solid #9748eb; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+.my-photo {
+    border-radius: 6px;
 }
 
 @media screen and (max-width: 1310px) {
     .intro {
         flex-direction: column;
         align-items: center;
+        margin-top: 20%;
+    }
+    .intro-left-wrapper {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .intro-img {
-        padding-top: 100px;
+        margin-top: 100px;
+        width: 70%;
     }
     
 }
@@ -83,30 +103,67 @@
 @media screen and (max-width: 800px) {
     .intro {
         flex-direction: column;
+        margin-top: 20%;
+    }
+    .intro-left-wrapper {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .intro-img {
-        padding-top: 100px;
+        margin-top: 100px;
+        margin-top: 5%;
+        width: 50%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
         flex-direction: column;
+        margin-top: 20%;
     }
-    .intro-img {
-        padding-top: 100px;
+    .intro-left-wrapper {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-}
-
-@media screen and (max-width: 550px) {
     .intro-greetings {
         font-size: 35px;
     }
     .intro-name {
-        font-size: 60px;
+        font-size: 30px;
     }
     .intro-description {
+        font-size: 25px;
+        text-align: center;
+    }
+    .intro-img {
+        margin-top: 100px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .intro {
+        margin-top: 20%;
+    }
+    .intro-left-wrapper {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro-greetings {
         font-size: 35px;
+    }
+    .intro-name {
+        font-size: 30px;
+    }
+    .intro-description {
+        font-size: 25px;
+        text-align: center;
     }
     .intro-skill-title {
         font-size: 25px;
@@ -119,6 +176,7 @@
         height: 60px;
     }
     .intro-img {
-        padding-top: 50px;
+        margin-top: 50px;
+        width: 50%;
     }
 }

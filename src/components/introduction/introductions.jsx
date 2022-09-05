@@ -4,11 +4,11 @@ import HTML from "../../img/HTML.svg"
 import CSS from "../../img/CSS.svg"
 import JS from "../../img/JS.svg"
 import REACT from "../../img/REACT.svg"
+import REACTNATIVE from "../../img/ReactNative.png"
 
 const Introduction = () => {
     return (
-        <div>
-            <div className="intro">
+            <div className="intro" id="Introduction">
                 <div className="intro-left">
                     <div className="intro-left-wrapper">
                         <h2 className="intro-greetings">Hello, i'm</h2>
@@ -21,6 +21,7 @@ const Introduction = () => {
                                 <div><img className="skill-icon" src={CSS} alt=""></img></div>
                                 <div><img className="skill-icon" src={JS} alt=""></img></div>
                                 <div><img className="skill-icon" src={REACT} alt=""></img></div>
+                                <div><img className="skill-icon-native" src={REACTNATIVE} alt=""></img></div>
                             </div>
                         </div>
                     </div>
@@ -29,7 +30,6 @@ const Introduction = () => {
                     <img src={Me} alt="" className="intro-img"/>
                 </div>
             </div>
-        </div>
     )
 }
 

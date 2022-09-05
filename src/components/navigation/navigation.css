@@ -1,0 +1,18 @@
+.navLink {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 90px;
+}
+
+.active {
+    color: rgb(140, 0, 255);
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link:hover {
+    text-shadow: 1px 1px 1px rgb(140, 0, 255);
+}

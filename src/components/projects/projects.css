@@ -13,17 +13,17 @@
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 10px;
-    color: $red-orange;
+    color: red-orange;
     font-weight: 500;
     font-size: 40px;
 }
 
 .block-work-title {
     font-weight: 600;
-    color: $cod-gray;
+    color: cod-gray;
     text-transform: uppercase;
     line-height: 1.2;
-    color: $cod-gray;
+    color: cod-gray;
     margin: 0 0 20px;
 }
 

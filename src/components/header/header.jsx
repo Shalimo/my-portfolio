@@ -1,11 +1,13 @@
+import Navigation from '../navigation/nagivation';
 import "./header.css";
 
 const Header = () => {
-    return (
-        <div className="header-wrapper">
-            <h2 className="header-title">#ffff00</h2>
-        </div>
-    )
+   return (
+      <div className="header" >
+         <Navigation/>
+      </div>
+   )
 }
 
-export default Header;
+
+export default Header
