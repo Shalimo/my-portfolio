@@ -9,7 +9,7 @@ import Counter from "../../img/counter.jpg";
 import Converter from "../../img/converter.jpg";
 import Calendar from "../../img/calendar.jpg";
 import GitHub from "../../img/github.jpg"
-import CRM from "../../img/CRM.jpg"
+import CRM from "../../img/CRM.png"
 import Terminal from "../../img/terminal.png"
 
 const Projects = () => {

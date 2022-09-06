@@ -72,9 +72,8 @@
     height: auto;
     max-width: 720px;
     width: 80%;
-    border-radius: 25px; /* Радиус скругления */
-    border: 1px solid #9748eb; /* Параметры рамки */
-    box-shadow: 0 0 7px #666; /* Параметры тени */
+    border-radius: 25px;
+    box-shadow: 0 0 7px #666;
 }
 
 .my-photo {
@@ -112,9 +111,8 @@
         align-items: center;
     }
     .intro-img {
-        margin-top: 100px;
-        margin-top: 5%;
-        width: 50%;
+        margin-top: 10%;
+        width: 75%;
     }
 }
 
@@ -140,16 +138,16 @@
         text-align: center;
     }
     .intro-img {
-        margin-top: 100px;
-        width: 50%;
+        margin-top: 70px;
+        width: 75%;
     }
     .skill-icon {
-        width: 70px;
-        height: 70px;
+        width: 75px;
+        height: 75px;
     }
     .skill-icon-native {
-        width: 70px;
-        height: 80px;
+        width: 80px;
+        height: 85px;
     }
 }
 
@@ -184,12 +182,12 @@
         height: 60px;
     }
     .skill-icon-native {
-        width: 60px;
+        width: 65px;
         height: 70px;
     }
     .intro-img {
         margin-top: 50px;
-        width: 50%;
+        width: 75%;
     }
 }
 
@@ -224,11 +222,11 @@
         height: 50px;
     }
     .skill-icon-native {
-        width: 50px;
+        width: 55px;
         height: 60px;
     }
     .intro-img {
         margin-top: 50px;
-        width: 50%;
+        width: 77%;
     }
 }
