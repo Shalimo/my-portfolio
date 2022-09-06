@@ -159,6 +159,12 @@ textarea {
         height: 70px;
         margin-right: 30px;
     }
+    input {
+        width: 70%;
+    }
+    textarea {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -170,5 +176,11 @@ textarea {
     }
     .contacts-info-item {
         font-size: 15px;
+    }
+    input {
+        width: 70%;
+    }
+    textarea {
+        width: 100%;
     }
 }
