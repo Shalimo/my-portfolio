@@ -10,7 +10,7 @@ const Navigation = () => {
             to="Introduction"
             spy={true}
             smooth={true}
-            offset={-80}
+            offset={-130}
             duration={500}
         >
             Introduction
